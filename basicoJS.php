@@ -45,11 +45,11 @@
 <section id="contenedor">
 
 <section  class="problema">
-  <h2>Problema: Cálcular la densidad de la Tierra</h2>
+  <h2>Problema: Hallar la aceleración radial con que se moverá un satélite artificial</h2>
   <p>Descripción:</p>
-  <p>El radio de la Tierra es 6 378 km y su masa es 5.97E24 kg. <br>
+  <p>
 Hallar la aceleración radial con que se moverá un satélite artificial de la Tierra por una órvita circular que se encuentra a 200km de altura sobre la superficie del planeta.
-a) ¿Cuál es la densidad promedio de la Tierra?<br>
+a) ¿Cuál es la aceleración radial del satélite?<br>
 
 <!--b) Si el radio de la Tierra se redujera a una tercera parte y su masa no cambiará, cuál serı́a su densidad?<br>
 c) Si el radio de la Tierra y su masa se redujera a una
@@ -71,12 +71,14 @@ tercera parte, ¿su densidad serı́a la misma? ¿por qué?</p>-->
 
 
 <section class="calculos">
-<h2>Solución</h2><!--b) Si el radio de la Tierra se redujera a una tercera parte y su masa no cambiará, cuál serı́a su densidad?<br>
-c) Si el radio de la Tierra y su masa se redujera a una
-tercera parte, ¿su densidad serı́a la misma? ¿por qué?</p>-->
-   <p>a)La densidad de la Tierra es:<br>
-    densidad = 5.97E24 Kg/volumen (m) <br>
-    volumen= (4/3)*pi*(6378000)*(6378000)*(6378000)</p>
+<h2>Solución</h2>
+   <p>a)La aceleración radial del satèlite es:<br>
+    ace = masa*gravedad/radio <br>
+    donde: 
+    g=9.8
+    m= 5.97E24 Kg.
+    r= 405777100 Km.
+         </p>
     <button onclick="calcula_ace();">Presiona para calcular</button>
 </section>
 
