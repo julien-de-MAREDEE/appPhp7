@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/problemas.css"/>
     <link href="https://fonts.googleapis.com/css?family=Rambla" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <script src="js/solucion.js"></script>
+    <script src="php7/solucion.js"></script>
   <!--  <script>
         function calcula_densidad(){
         var masa= 5.97E24;
